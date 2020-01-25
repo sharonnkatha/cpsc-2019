@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21108A2A-ED55-4912-9232-FE8BDF938D55}</ProjectGuid>
+    <ProjectGuid>{2542556A-4082-4431-BF8D-E82C92188A79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>evenodd</RootNamespace>
-    <AssemblyName>evenodd</AssemblyName>
+    <RootNamespace>Inout</RootNamespace>
+    <AssemblyName>Inout</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
