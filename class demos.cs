@@ -53,7 +53,7 @@ namespace HelloWorld
             //math calculations follow the accepted rules of arithmetic
             // -assignment making a number negative
             // () execute within
-            //*/ %
+            //*/ %j
             //+-
             BMI = myWeight / (myHeight * myHeight);
             Console.WriteLine("According to your metric weight OF {0:0.0} and height OF {1:0.00} your BMI is {2:0.0}", myWeight, myHeight, BMI);
@@ -62,7 +62,7 @@ namespace HelloWorld
             myWeight = 242.5m;
             myHeight = 69.0m;
             BMI = (myWeight * ImperialBMIValue)(myHeight * myHeight);
-            Console.WriteLine("According to your metric weight OF {myWeight:0.0} and height OF {myHeight:0.00} your BMI is {2:0.0}");
+            Console.WriteLine("According to your metric weight of {myWeight:0.0} and height of {myHeight:0.00} your BMI is {2:0.0}");
         }
     }
 }
