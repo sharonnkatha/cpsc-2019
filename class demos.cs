@@ -62,7 +62,11 @@ namespace HelloWorld
             myWeight = 242.5m;
             myHeight = 69.0m;
             BMI = (myWeight * ImperialBMIValue)(myHeight * myHeight);
+<<<<<<< HEAD
             Console.WriteLine("According to your metric weight of {myWeight:0.0} and height of {myHeight:0.00} your BMI is {2:0.0}");
+=======
+            Console.WriteLine($"According to your metric weight OF {myWeight:0.0} and height OF {myHeight:0.00} your BMI is {2:0.0}");
+>>>>>>> 519c1f23fb6b720a5deb8d31c666ec4459cb8a48
         }
     }
 }
