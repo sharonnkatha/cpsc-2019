@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evenodd", "evenodd\evenodd.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "highmedlow", "highmedlow\highmedlow.csproj", "{7E74EE1D-55AC-4C60-B356-6C725BE9AD20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branchif_marinerstars", "Branchif_marinerstars\Branchif_marinerstars.csproj", "{5AE374D8-CFF9-46B0-9B36-96445F56C59D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logicalconditions", "logicalconditions\logicalconditions.csproj", "{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{7E74EE1D-55AC-4C60-B356-6C725BE9AD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E74EE1D-55AC-4C60-B356-6C725BE9AD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E74EE1D-55AC-4C60-B356-6C725BE9AD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE374D8-CFF9-46B0-9B36-96445F56C59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE374D8-CFF9-46B0-9B36-96445F56C59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE374D8-CFF9-46B0-9B36-96445F56C59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE374D8-CFF9-46B0-9B36-96445F56C59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
