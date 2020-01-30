@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logicalconditions", "logica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2", "Core2\Core2.csproj", "{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "casedecision", "netsedif\casedecision.csproj", "{EFF633B0-2DC7-4DFA-9F00-61CAD6041E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicequestions", "practicequestions\practicequestions.csproj", "{A8B74943-94E5-4821-A8B9-7EE165AA5F36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,14 @@ Global
 		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF633B0-2DC7-4DFA-9F00-61CAD6041E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF633B0-2DC7-4DFA-9F00-61CAD6041E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF633B0-2DC7-4DFA-9F00-61CAD6041E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF633B0-2DC7-4DFA-9F00-61CAD6041E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B74943-94E5-4821-A8B9-7EE165AA5F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B74943-94E5-4821-A8B9-7EE165AA5F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B74943-94E5-4821-A8B9-7EE165AA5F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B74943-94E5-4821-A8B9-7EE165AA5F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
