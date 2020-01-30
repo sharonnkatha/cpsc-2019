@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logicalconditions", "logica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2", "Core2\Core2.csproj", "{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "studentname_and_mark", "studentname_and_mark\studentname_and_mark.csproj", "{4ABF52CB-44C5-4C18-9F46-668DE315A16D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABF52CB-44C5-4C18-9F46-668DE315A16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABF52CB-44C5-4C18-9F46-668DE315A16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABF52CB-44C5-4C18-9F46-668DE315A16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABF52CB-44C5-4C18-9F46-668DE315A16D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
