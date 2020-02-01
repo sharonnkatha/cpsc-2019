@@ -22,9 +22,21 @@ namespace studentname_and_mark
             Console.WriteLine("Please enter your Mark ");
             InputValue = Console.ReadLine();
             StudentMark = double.Parse(InputValue);
-            
-            if (StudentMark =)
-                
+            //  question 2 
+            Console.WriteLine($"Quetion 1\n");
+            int numArg= -1;
+            if (numArg == 0)
+            {
+                Console.WriteLine($"The  number {numArg} is zero");
+            }
+            else
+            {
+                Console.WriteLine($"The number {numArg} is negative");
+            }
+            Console.WriteLine("\n\n");    
+
+            //question3
+
         }
     }
 }
