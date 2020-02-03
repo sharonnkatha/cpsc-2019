@@ -45,21 +45,13 @@ namespace Core2
             decimal GST;
             decimal deliveryCharge;
             double Total;
-            
-            
-            
-
-            
-            
+           
 
             Console.WriteLine("Welcome to Stoney Gravel Pit!");
             Console.ReadLine();
             Console.WriteLine($"Please enter the weight of gravel required:");
             inputValue = Console.ReadLine();
             gravelAmount = double.Parse(inputValue);
-
-
-
 
             Console.WriteLine($"Do you require delivery (Y/N)?");
             deliveryOption = Console.ReadLine();
@@ -135,11 +127,6 @@ namespace Core2
                         break;
                     }
             }
-
-
-
-
-
 
 
 
