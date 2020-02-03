@@ -10,33 +10,63 @@ namespace studentname_and_mark
     {
         static void Main(string[] args)
         {
-            string Grade;
-            double StudentMark;
+           
+            int Mark;
             string InputValue;
-            string StudentName;
+            string Name;
+            string gradeletter = "";
 
             Console.WriteLine("Please enter your name ");
             InputValue = Console.ReadLine();
-            StudentName = InputValue;
+            Name = InputValue;
 
             Console.WriteLine("Please enter your Mark ");
             InputValue = Console.ReadLine();
-            StudentMark = double.Parse(InputValue);
-            //  question 2 
-            Console.WriteLine($"Quetion 1\n");
-            int numArg= -1;
-            if (numArg == 0)
-            {
-                Console.WriteLine($"The  number {numArg} is zero");
+            Mark = int.Parse(InputValue);
+            
+            if (Mark >= 90 )
+                {
+                gradeletter = "A";
             }
+            
             else
             {
-                Console.WriteLine($"The number {numArg} is negative");
+                if (Mark >=80 )
+                    {
+                    gradeletter = "B";
+                }
+                else
+                {
+                    if (Mark >= 70)
+                    {
+                        gradeletter = "C";
+                    }
+                    else
+                    {
+                        if (Mark >= 60)
+                        {
+                            gradeletter = "D";
+                        }
+                        else
+                        {
+                            if (Mark >= 50)
+                                {
+                                gradeletter = "E";
+                            }
+                            else
+                            {
+                                gradeletter = "F";
+                            }
+                        }
+
+                    }    
+                }
+
+
             }
-            Console.WriteLine("\n\n");    
+            Console.WriteLine($"{Name} your Mark of {Mark} translates to {gradeletter}");
+            Console.WriteLine("\n\n");
 
-            //question3
-
-        }
+        }    
     }
 }
