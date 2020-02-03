@@ -48,66 +48,96 @@ namespace Core2
            
 
             Console.WriteLine("Welcome to Stoney Gravel Pit!");
-            Console.ReadLine();
             Console.WriteLine($"Please enter the weight of gravel required:");
             inputValue = Console.ReadLine();
             gravelAmount = double.Parse(inputValue);
-
-            Console.WriteLine($"Do you require delivery (Y/N)?");
-            deliveryOption = Console.ReadLine();
-
-
+            
             if (gravelAmount < 1000)
-                {
-                gravelCharge = 0.55m;
-                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.55 per lb");
+            {
                 
+                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.55 per lb");
+
+            }
+            else if (gravelAmount >= 1000 || gravelAmount <= 2000)
+            {
+                
+                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.45 per lb");
+
+            }
+            else if (gravelAmount > 2000 || gravelAmount <= 3000)
+            {
+              
+                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.35 per lb");
+            }
+            else if (gravelAmount > 3000 || gravelAmount <= 4000)
+            {
+               
+                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.25 per lb");
+            }
+            else if (gravelAmount > 4000 || gravelAmount <= 5000)
+            {
+                
+                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.15 per lb");
             }
             else
             {
-                if (gravelAmount >= 1000 || gravelAmount <= 2000 )
-                {
-                    gravelCharge = 0.45m;
-                    Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.45 per lb");
-                    
-                }
-                else
-                {
-                    if (gravelAmount > 2000 || gravelAmount <= 3000)
-                    {
-                        gravelCharge = 0.35m;
-                        Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.35 per lb");
-                        
-                    }
-                    else
-                    {
-                        if (gravelAmount > 3000 || gravelAmount <= 4000)
-                        {
-                            gravelCharge = 0.25m;
-                            Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.25 per lb");
-                            
-                        }
-                        else
-                        {
-                            if (gravelAmount > 4000 || gravelAmount <= 5000 )
-                            {
-                                gravelCharge = 0.15m;
-                                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.15 per lb");
-                                
-                            }
-                            else
-                            {
-                                gravelCharge = 0.10m;
-                                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.10 per lb");
-                                
-                            }
-                        }
-                    }
-                }
+                
+                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.10 per lb");
             }
+
+            //if (gravelAmount < 1000)
+            //    {
+            //    gravelCharge = 0.55m;
+            //    Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.55 per lb");
+
+            //}
+            //else
+            //{
+            //    if (gravelAmount >= 1000 || gravelAmount <= 2000 )
+            //    {
+            //        gravelCharge = 0.45m;
+            //        Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.45 per lb");
+
+            //    }
+            //    else
+            //    {
+            //        if (gravelAmount > 2000 || gravelAmount <= 3000)
+            //        {
+            //            gravelCharge = 0.35m;
+            //            Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.35 per lb");
+
+            //        }
+            //        else
+            //        {
+            //            if (gravelAmount > 3000 || gravelAmount <= 4000)
+            //            {
+            //                gravelCharge = 0.25m;
+            //                Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.25 per lb");
+
+            //            }
+            //            else
+            //            {
+            //                if (gravelAmount > 4000 || gravelAmount <= 5000 )
+            //                {
+            //                    gravelCharge = 0.15m;
+            //                    Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.15 per lb");
+
+            //                }
+            //                else
+            //                {
+            //                    gravelCharge = 0.10m;
+            //                    Console.WriteLine($"The Charge for  {gravelAmount}lb is $0.10 per lb");
+
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
             subTotal = gravelAmount * (double)gravelCharge;
-           
+
             //switch statement
+            Console.WriteLine($"Do you require delivery (Y/N)?");
+            deliveryOption = Console.ReadLine();
 
             switch (deliveryOption.ToUpper())
             {
@@ -121,13 +151,9 @@ namespace Core2
                         deliveryCharge = 0.00m;
                         break;
                     }
-                default:
-                    {
-                        deliveryOption = "invalid option";
-                        break;
-                    }
+               
             }
-
+            
 
 
             Console.WriteLine("\n");
@@ -156,7 +182,7 @@ namespace Core2
             //Console.WriteLine($"Delivery: {deliveryCharge,5:c}");
             //Console.WriteLine($"GST: {GST,10:c}");
             //Console.WriteLine($"Total: {Total,8:c}");
-
+            Console.ReadKey();
 
 
 

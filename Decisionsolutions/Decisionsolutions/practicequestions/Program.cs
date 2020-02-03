@@ -118,7 +118,7 @@ namespace practicequestions
             //following table:
             // 100-90 A; 89-80 B; 79-70 C; 69-50 D; 49-0 F;
             string Name = "Don";
-            int Grade = 77;
+            int Grade = 80;
             string gradeLetter = "";
             if (Grade >= 90) //&& Grade <= 100
             {
