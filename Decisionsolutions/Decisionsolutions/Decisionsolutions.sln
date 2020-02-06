@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicequestions", "practi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxableIncome", "TaxableIncome\TaxableIncome.csproj", "{D6E3571D-8FD9-4D51-B185-C6DB1FC2D5AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "another_case_example", "another_case_example\another_case_example.csproj", "{5C1D03B8-A470-479B-AF61-6712A1F2D4BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "another_case_example_switch", "another_case_example\another_case_example_switch.csproj", "{5C1D03B8-A470-479B-AF61-6712A1F2D4BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
