@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branchif_marinerstars", "Br
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logicalconditions", "logicalconditions\logicalconditions.csproj", "{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2", "Core2\Core2.csproj", "{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "studentname_and_mark", "studentname_and_mark\studentname_and_mark.csproj", "{4ABF52CB-44C5-4C18-9F46-668DE315A16D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "casedecision", "netsedif\casedecision.csproj", "{EFF633B0-2DC7-4DFA-9F00-61CAD6041E6F}"
@@ -24,6 +22,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxableIncome", "TaxableIncome\TaxableIncome.csproj", "{D6E3571D-8FD9-4D51-B185-C6DB1FC2D5AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "another_case_example_switch", "another_case_example\another_case_example_switch.csproj", "{5C1D03B8-A470-479B-AF61-6712A1F2D4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switchpractice", "switchpractice\switchpractice.csproj", "{2E0E09DB-DBA7-4348-88DA-0F3A85A156B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unitconversionsprogram", "unitconversionsprogram\unitconversionsprogram.csproj", "{49350D54-CAA7-44D5-887B-10D4D45B64F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,10 +48,6 @@ Global
 		{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3ECB6620-5527-4A4C-8DC1-3D5036C338B0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4ABF52CB-44C5-4C18-9F46-668DE315A16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4ABF52CB-44C5-4C18-9F46-668DE315A16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ABF52CB-44C5-4C18-9F46-668DE315A16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -70,6 +68,14 @@ Global
 		{5C1D03B8-A470-479B-AF61-6712A1F2D4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1D03B8-A470-479B-AF61-6712A1F2D4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C1D03B8-A470-479B-AF61-6712A1F2D4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0E09DB-DBA7-4348-88DA-0F3A85A156B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0E09DB-DBA7-4348-88DA-0F3A85A156B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0E09DB-DBA7-4348-88DA-0F3A85A156B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0E09DB-DBA7-4348-88DA-0F3A85A156B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49350D54-CAA7-44D5-887B-10D4D45B64F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49350D54-CAA7-44D5-887B-10D4D45B64F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49350D54-CAA7-44D5-887B-10D4D45B64F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49350D54-CAA7-44D5-887B-10D4D45B64F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
