@@ -11,62 +11,69 @@ namespace studentname_and_mark
         static void Main(string[] args)
         {
            
-            int Mark;
+            int Mark=0;
             string InputValue;
             string Name;
             string gradeletter = "";
+            int loopCounter=1;
 
             Console.WriteLine("Please enter your name ");
             InputValue = Console.ReadLine();
             Name = InputValue;
-
-            Console.WriteLine("Please enter your Mark ");
-            InputValue = Console.ReadLine();
-            Mark = int.Parse(InputValue);
-            
-            if (Mark >= 90 )
-                {
-                gradeletter = "A";
-            }
-            
-            else
+            while (loopCounter <= 7)
             {
-                if (Mark >=80 )
-                    {
-                    gradeletter = "B";
+
+                Console.WriteLine("Please enter your Mark ");
+                InputValue = Console.ReadLine();
+                Mark = int.Parse(InputValue);
+
+                if (Mark >= 90)
+                {
+                    gradeletter = "A";
                 }
+
                 else
                 {
-                    if (Mark >= 70)
+                    if (Mark >= 80)
                     {
-                        gradeletter = "C";
+                        gradeletter = "B";
                     }
                     else
                     {
-                        if (Mark >= 60)
+                        if (Mark >= 70)
                         {
-                            gradeletter = "D";
+                            gradeletter = "C";
                         }
                         else
                         {
-                            if (Mark >= 50)
-                                {
-                                gradeletter = "E";
+                            if (Mark >= 60)
+                            {
+                                gradeletter = "D";
                             }
                             else
                             {
-                                gradeletter = "F";
+                                if (Mark >= 50)
+                                {
+                                    gradeletter = "E";
+                                }
+                                else
+                                {
+                                    gradeletter = "F";
+                                }
                             }
+
                         }
+                    }
 
-                    }    
+
                 }
+                
 
-
-            }
-            Console.WriteLine($"{Name} your Mark of {Mark} translates to {gradeletter}");
-            Console.WriteLine("\n\n");
-
+                Console.WriteLine($"{Name} your Mark of {Mark} translates to {gradeletter}");
+                Console.WriteLine("\n\n");
+                loopCounter++;
+            }    
+            
         }    
     }
 }

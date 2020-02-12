@@ -21,7 +21,7 @@ namespace forLoop
             //while condition: counter is less than my stop value
             //     (stop value is either an upper limit or lower limit)
 
-            //go yhrough the loop 7 times
+            //go through the loop 7 times
             //count the number of even numbers, number of odd numbers
             //after the loop print out the even and odd number running totals
             int evenNumbers = 0;
