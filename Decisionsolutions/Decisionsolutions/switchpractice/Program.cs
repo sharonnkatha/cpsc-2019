@@ -14,12 +14,14 @@ namespace switchpractice
              *A. 9.95 per month upto 10hrs additional hrs $2.00 per hr
              *B.13.95 "          "   20hrs                $1.00
              *C. 19.95           for unlimited hrs
-             * 
+             * add for loop
+             *
              */
             string packageLetter;
             int numOfHours;
             string inputValue;
             double totalPayment=0;
+            int loopCounter;
             
             Console.WriteLine("Enter the service package A,B or C");
             packageLetter = Console.ReadLine();

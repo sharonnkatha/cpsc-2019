@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branchif_marinerstars", "Br
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logicalconditions", "logicalconditions\logicalconditions.csproj", "{F8F5D57F-209A-4E2E-83AB-DFC8683CED04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "studentname_and_mark", "studentname_and_mark\studentname_and_mark.csproj", "{4ABF52CB-44C5-4C18-9F46-668DE315A16D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "studentname_and_mark_whileloop", "studentname_and_mark\studentname_and_mark_whileloop.csproj", "{4ABF52CB-44C5-4C18-9F46-668DE315A16D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "casedecision", "netsedif\casedecision.csproj", "{EFF633B0-2DC7-4DFA-9F00-61CAD6041E6F}"
 EndProject
