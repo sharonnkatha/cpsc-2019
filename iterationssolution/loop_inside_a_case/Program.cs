@@ -28,11 +28,11 @@ namespace loop_inside_a_case
                     case "A":
                         {
                             int number = -1;
-                            string inputSring = "";
+                           
 
                             while (number != 0)
                             {
-                                bool validFlag = false;
+                                
                                 do
                                 {
                                     // do
@@ -40,16 +40,12 @@ namespace loop_inside_a_case
                                     //   Console.Write("Enter a positive whole number or enter 0 to quit\n");
                                     //  inputString = Console.ReadLine();
                                     //while (int.TryParse(inputstring,out number))
-
+                                     string inputString = "";
                                     Console.Write("Enter a positive whole number or enter 0 to quit\n");
-                                    inputSring = Console.ReadLine();
+                                    inputString = Console.ReadLine();
                                     //need a test to appropriately set your loop exit test
-                                    if (int.TryParse(inputSring, out number))
-                                    {
-                                        //set the flag to an appropriate value to work with your logic
-                                        validFlag = true;
-                                    }
-                                } while (validFlag == false);
+                                    
+                                } while (int.TryParse(inputString, out number))
                                 //       
                                 if (number > 0)
                                 {
