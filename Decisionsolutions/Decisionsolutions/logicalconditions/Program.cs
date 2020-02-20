@@ -59,6 +59,17 @@ namespace logicalconditions
             {
                 Console.WriteLine("Welcome to the league");
             }
+            
+            
+            if (Age < 4 && Age > 14)
+            {
+                //one does NOT know if the age is less than or greater than
+                Console.WriteLine("Sorry you are not in the age bracket for this league");
+            }
+            else
+            {
+                Console.WriteLine("Welcome to the league");
+            }
         }
     }
 }
