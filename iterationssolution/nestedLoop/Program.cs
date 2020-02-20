@@ -10,73 +10,71 @@ namespace nestedLoop
     {
         static void Main(string[] args)
         {
-            //query user for a number 
+            //query user for a number
             //validate a number was entered (integer)
             //if a number was entered check for even/odd
             //continue unless a 0 was entered then exit
-            //to validate a stringf to contain a number use thye xxxx.TryParse of the number data type
-            //syntaxx of .TryParse has a (string, out variablename)
-            //string holds value to test
-            //if valu is good:
-            //   the no is automatically place in your variable]
-            //   the test returns a boolean true
-            //if the value is not good :
-            //No vqalue is placed in your variable 
-            //   the test retursn a boolean false
 
-            //condition flag
-            //note:it must be reset on eacg pass of the outer l;oop
+            //to validate a string to contain an number
+            //   use the xxxx.TryParse of the number datatype
+            // syntax of .TryParse(string, out variablename)
+            // string hold the value to test
+            // if the value in good:
+            //      the number is automatically place in your variable
+            //      the test returns a boolean true
+            // if the value is NOT good:
+            //      NO value is placed in your variable
+            //      the test returns a boolean false
 
             int number = -1;
-            string inputSring = "";
+            string inputString = "";
 
             while (number != 0)
             {
+                //do
+                //{
+                //    Console.Write("Enter a positive whole number OR enter 0 to quit.");
+                //    inputString = Console.ReadLine();
+                //} while (!int.TryParse(inputString, out number));
+
+                //condition flag
+                //NOTE: it MUST be reset on EACH pass of the OUTER loop
                 bool validFlag = false;
                 do
                 {
-                    // do
-                    //
-                    //   Console.Write("Enter a positive whole number or enter 0 to quit\n");
-                    //  inputSring = Console.ReadLine();
-                    //while (int.TryParse(inputstring,out number))
-
-                     Console.Write("Enter a positive whole number or enter 0 to quit\n");
-                    inputSring = Console.ReadLine();
+                    Console.Write("Enter a positive whole number OR enter 0 to quit.");
+                    inputString = Console.ReadLine();
                     //need a test to appropriately set your loop exit test
-                    if(int.TryParse(inputSring , out number))
+                    if (int.TryParse(inputString, out number))
                     {
                         //set the flag to an appropriate value to work with your logic
                         validFlag = true;
                     }
-                } while (validFlag == false); 
-                //       
+                } while (validFlag == false);
+
                 if (number > 0)
                 {
-                    if (number % 2 ==0) //% means if its divisible by 2
+                    if (number % 2 == 0)
                     {
-                        Console.WriteLine($"{number} is an even value.\n");
+                        Console.WriteLine($"{number} is an even value.\n\n");
                     }
                     else
                     {
-                        Console.WriteLine($"{number} is an even value.\n");
+                        Console.WriteLine($"{number} is an odd value.\n\n");
                     }
                 }
                 else
                 {
                     if (number == 0)
                     {
-                        Console.WriteLine($"Thankyou come again.\n");
+                        Console.WriteLine($"thank you. come again.\n\n");
                     }
                     else
                     {
-                        Console.WriteLine($"{number} is invalid.Try again.\n");
+                        Console.WriteLine($"{number} is invalid. try again.\n\n");
                     }
                 }
-
-            }
-           
-
+            }//eol while
         }
     }
 }
