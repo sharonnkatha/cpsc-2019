@@ -17,8 +17,8 @@ namespace iterations_PostTest
 
 
 
-            //the loop strcture demonstr4ated in thiks sample is a post test
-            //post test is alos known as Do ntil
+            //the loop strcture demonstr4ated in this sample is a post test
+            //post test is also known as Do until
             //post test executes the code once before the loop condition is tested
             //after the code has executed the post test condition is still for true
             //if the condition is still true the loop code is reexecuted 
