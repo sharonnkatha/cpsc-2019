@@ -74,6 +74,7 @@ namespace menuLoop
 
             } while (menuOption.ToUpper() != "X");
             Console.ReadKey();
+           
         }
     }
 }

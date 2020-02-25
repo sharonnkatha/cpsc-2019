@@ -26,7 +26,7 @@ namespace iterations
             //Pre test checks to see if the condition is true b4 executing the code
             //after the code has executed the pre test condition is still true
             //        if the condition is still true the loop code is reexecuted 
-            //        if the condition is false the loop termninates and the xecution continues with the remaider of the program
+            //        if the condition is false the loop termninates and the execution continues with the remaider of the program
             
             //the loop contructioon
             //(answer.ToUpper().Equals("Y")
