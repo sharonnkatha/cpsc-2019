@@ -19,7 +19,7 @@ namespace headsandtails
                 Console.WriteLine("Select a option from the following menu:");
                 Console.WriteLine("A) Play Even or Odds");
                 Console.WriteLine("B) Do case B heads bor tails game");
-                Console.WriteLine("C) Do case C");
+                Console.WriteLine("C) Calculate sum of squares");
                 Console.WriteLine("X) Exit\n");
                 Console.Write("Entry your menu option:\t");
                 menuOption = Console.ReadLine();
@@ -55,7 +55,18 @@ namespace headsandtails
                             //after the loop display your integer number and its sum of squares
                             // entered 4
                             //loop 4 times  1) 1* 1 2) 2* 2 3) 3 * 3 4) 4 * 4 final total = 30
-                            Console.WriteLine($"You entered the menu option  of C.\n\n");
+
+                            int number = GetIntegerInput("Enter a number greater than 0");
+                            if (number < 1)
+                            {
+                                Console.WriteLine($"{number} is not greater than 0. Unable to do sum of squares");
+                            }
+                            else
+                            {
+                                int SumOfSquares = 0;
+                                number = SumofSquaresMethod(number);
+                                Console.WriteLine($"{SumOfSquares} is the sum of squares for {number}");
+                            }
                             break;
                         }
                     case "X":
@@ -91,6 +102,77 @@ namespace headsandtails
         //                      a parameter is a set of datatype and varieble name
         //                      parameters are separated by using a comma,
         //
+        static public void Even_Or_Odds()
+        {
+            int number = -1;
+           
+
+            while (number != 0)
+            {
+
+                number = GetIntegerInput("Enter a positive whole number OR enter 0 to quit.");
+
+                if (number > 0)
+                {
+                    if (number % 2 == 0)
+                    {
+                        Console.WriteLine($"{number} is an even value.\n\n");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{number} is an odd value.\n\n");
+                    }
+                }
+                else
+                {
+                    if (number == 0)
+                    {
+                        Console.WriteLine($"thank you. come again.\n\n");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{number} is invalid. try again.\n\n");
+                    }
+                }
+            }//eol while
+
+
+        }//eom Even_Or_Odds() //subroutines a method that doent return a value
+        static public int SumofSquaresMethod(int seednumber) //function a method that  returns a value
+        {
+            
+            //loop n times where n is the integer number (1 to n)
+            //within the loop your calculation is  total += loopnumber * loopnumber
+            //after the loop display your integer number and its sum of squares
+            // entered 4
+            //loop 4 times  1) 1* 1 2) 2* 2 3) 3 * 3 4) 4 * 4 final total = 30
+            int finalSquare = 0;
+            for(int Loopcounter = 1; Loopcounter <= seednumber; Loopcounter++)  //start at value of , stop value
+            {
+                finalSquare += Loopcounter * Loopcounter;
+            }
+            return finalSquare;
+        }
+
+        static public int GetIntegerInput(string promptLine)
+            {
+            bool validFlag = false;
+            string inputString = "";
+            int number = 0;
+                do
+                {
+                    Console.Write(promptLine);
+                    inputString = Console.ReadLine();
+                   
+                    if (int.TryParse(inputString, out number))
+                    {
+                        validFlag = true;
+                    }
+                }while (validFlag == false);
+            return number;
+            //if your method indicates that a return datatype is secified
+            //you must have at least one return statement in your method code
+              }
         static public void Heads_Or_Tails_Game()
         {
             int headcount= 0;
@@ -143,59 +225,7 @@ namespace headsandtails
 
             } while (!inputstring.ToUpper().Equals("Q"));
         }//eom Heads_Or_Tails_Game
-        static public void Even_Or_Odds()
-        {int number = -1;
-                            string inputString = "";
-
-                            while (number != 0)
-                            {
-                                //do
-                                //{
-                                //    Console.Write("Enter a positive whole number OR enter 0 to quit.");
-                                //    inputString = Console.ReadLine();
-                                //} while (!int.TryParse(inputString, out number));
-
-                                //condition flag
-                                //NOTE: it MUST be reset on EACH pass of the OUTER loop
-                                bool validFlag = false;
-                                do
-                                {
-                                    Console.Write("Enter a positive whole number OR enter 0 to quit.");
-                                    inputString = Console.ReadLine();
-                                    //need a test to appropriately set your loop exit test
-                                    if (int.TryParse(inputString, out number))
-                                    {
-                                        //set the flag to an appropriate value to work with your logic
-                                        validFlag = true;
-                                    }
-                                } while (validFlag == false);
-
-                                if (number > 0)
-                                {
-                                    if (number % 2 == 0)
-                                    {
-                                        Console.WriteLine($"{number} is an even value.\n\n");
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine($"{number} is an odd value.\n\n");
-                                    }
-                                }
-                                else
-                                {
-                                    if (number == 0)
-                                    {
-                                        Console.WriteLine($"thank you. come again.\n\n");
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine($"{number} is invalid. try again.\n\n");
-                                    }
-                                }
-                            }//eol while
-
-
-        }//eom Even_Or_Odds()
+       
     }
        
 }
