@@ -7,7 +7,7 @@
     <ProjectGuid>{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>corePortfolio3_to_methods</RootNamespace>
-    <AssemblyName>corePortfolio3_to_methods</AssemblyName>
+    <AssemblyName>corePortfolio3 to_methods</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

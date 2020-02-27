@@ -10,6 +10,9 @@ namespace next
     {
         static void Main(string[] args)
         {
+            //local variables are not automatically passed to any called method
+            //pass data into/Returdata form a method
+
         }
     }
 }

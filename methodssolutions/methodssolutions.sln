@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "methodssolutions", "methodssolutions.csproj", "{BB64C72A-3221-4B6D-9E3B-C561D7F4E024}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heads and tails_even_or_odd_game", "heads and tails_even_or_odd_game.csproj", "{BB64C72A-3221-4B6D-9E3B-C561D7F4E024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "next", "..\next\next.csproj", "{9A7BEDC6-487B-408F-886B-1B9792FC11D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corePortfolio3 to_methods", "..\corePortfolio3 to_methods\corePortfolio3 to_methods.csproj", "{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BB64C72A-3221-4B6D-9E3B-C561D7F4E024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB64C72A-3221-4B6D-9E3B-C561D7F4E024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB64C72A-3221-4B6D-9E3B-C561D7F4E024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7BEDC6-487B-408F-886B-1B9792FC11D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7BEDC6-487B-408F-886B-1B9792FC11D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7BEDC6-487B-408F-886B-1B9792FC11D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7BEDC6-487B-408F-886B-1B9792FC11D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
