@@ -1,0 +1,6 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\using_methods\bin\Debug\using_methods.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\using_methods\bin\Debug\using_methods.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\using_methods\bin\Debug\using_methods.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\using_methods\obj\Debug\using_methods.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\using_methods\obj\Debug\using_methods.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\using_methods\obj\Debug\using_methods.pdb

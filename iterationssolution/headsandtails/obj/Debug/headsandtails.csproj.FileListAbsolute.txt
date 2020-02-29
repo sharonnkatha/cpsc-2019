@@ -1,0 +1,7 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\iterationssolution\headsandtails\bin\Debug\headsandtails.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\iterationssolution\headsandtails\bin\Debug\headsandtails.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\iterationssolution\headsandtails\bin\Debug\headsandtails.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\iterationssolution\headsandtails\obj\Debug\headsandtails.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\iterationssolution\headsandtails\obj\Debug\headsandtails.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\iterationssolution\headsandtails\obj\Debug\headsandtails.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\iterationssolution\headsandtails\obj\Debug\headsandtails.csprojAssemblyReference.cache
