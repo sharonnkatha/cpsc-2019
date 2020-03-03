@@ -1,0 +1,7 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\LoadArray\bin\Debug\LoadArray.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\LoadArray\bin\Debug\LoadArray.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\LoadArray\bin\Debug\LoadArray.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\LoadArray\obj\Debug\LoadArray.csprojAssemblyReference.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\LoadArray\obj\Debug\LoadArray.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\LoadArray\obj\Debug\LoadArray.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\LoadArray\obj\Debug\LoadArray.pdb
