@@ -1,0 +1,7 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\TwoColumnFile\bin\Debug\TwoColumnFile.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\TwoColumnFile\bin\Debug\TwoColumnFile.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\TwoColumnFile\bin\Debug\TwoColumnFile.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\TwoColumnFile\obj\Debug\TwoColumnFile.csprojAssemblyReference.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\TwoColumnFile\obj\Debug\TwoColumnFile.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\TwoColumnFile\obj\Debug\TwoColumnFile.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\file io\fileIO\TwoColumnFile\obj\Debug\TwoColumnFile.pdb

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "fileIO\FileIO.csproj", "{CA5EB650-71E0-4F90-BDD6-856CDD45209F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIOBrowseDialog", "fileIO\FileIOBrowseDialog.csproj", "{CA5EB650-71E0-4F90-BDD6-856CDD45209F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "using_methods", "using_methods\using_methods.csproj", "{8DA843D0-F042-429A-AFD3-9DD401318266}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "special_folder", "using_methods\special_folder.csproj", "{8DA843D0-F042-429A-AFD3-9DD401318266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3rd method", "3rd method\3rd method.csproj", "{29D63EF7-6F65-4120-9BDD-AD1ECF876204}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsolutePathName", "3rd method\AbsolutePathName.csproj", "{29D63EF7-6F65-4120-9BDD-AD1ECF876204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoColumnFile", "TwoColumnFile\TwoColumnFile.csproj", "{7373956D-1F44-47B9-A4BB-39D693C9249E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{29D63EF7-6F65-4120-9BDD-AD1ECF876204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D63EF7-6F65-4120-9BDD-AD1ECF876204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D63EF7-6F65-4120-9BDD-AD1ECF876204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7373956D-1F44-47B9-A4BB-39D693C9249E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7373956D-1F44-47B9-A4BB-39D693C9249E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7373956D-1F44-47B9-A4BB-39D693C9249E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7373956D-1F44-47B9-A4BB-39D693C9249E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
