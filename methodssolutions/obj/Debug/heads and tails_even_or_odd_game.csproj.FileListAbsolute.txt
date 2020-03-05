@@ -1,0 +1,6 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\methodssolutions\bin\Debug\methodssolutions.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\methodssolutions\bin\Debug\methodssolutions.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\methodssolutions\bin\Debug\methodssolutions.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\methodssolutions\obj\Debug\heads and tails_even_or_odd_game.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\methodssolutions\obj\Debug\methodssolutions.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\methodssolutions\obj\Debug\methodssolutions.pdb

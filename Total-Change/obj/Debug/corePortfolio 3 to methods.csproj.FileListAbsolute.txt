@@ -1,0 +1,2 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\Total-Change\obj\Debug\corePortfolio 3 to methods.csprojAssemblyReference.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\Total-Change\obj\Debug\corePortfolio 3 to methods.csproj.CoreCompileInputs.cache

@@ -28,7 +28,6 @@ namespace LoadArray
             //  each supplied value is placed within the array coonsequtively
             //  the datatype after the new is optional BUT the values given 
             //      must match the receivig array declaration datatype
-
             
             int[] diceValue = new int[] { 1, 2, 3, 4, 5, 6, };
 

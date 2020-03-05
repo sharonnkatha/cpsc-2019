@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heads and tails_even_or_odd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "next", "..\next\next.csproj", "{9A7BEDC6-487B-408F-886B-1B9792FC11D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corePortfolio3 to_methods", "..\corePortfolio3 to_methods\corePortfolio3 to_methods.csproj", "{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corePortfolio 3 to methods", "..\Total-Change\corePortfolio 3 to methods.csproj", "{AE78542B-1C2B-42F6-B730-4F9EB7955B4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{9A7BEDC6-487B-408F-886B-1B9792FC11D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A7BEDC6-487B-408F-886B-1B9792FC11D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A7BEDC6-487B-408F-886B-1B9792FC11D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD0CB94F-7E6F-4719-BD66-4D1E9C0BC797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE78542B-1C2B-42F6-B730-4F9EB7955B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE78542B-1C2B-42F6-B730-4F9EB7955B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE78542B-1C2B-42F6-B730-4F9EB7955B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE78542B-1C2B-42F6-B730-4F9EB7955B4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
