@@ -1,0 +1,7 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Array2\bin\Debug\Array2.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Array2\bin\Debug\Array2.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Array2\bin\Debug\Array2.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Array2\obj\Debug\sequential_seach_find.csprojAssemblyReference.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Array2\obj\Debug\sequential_seach_find.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Array2\obj\Debug\Array2.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Array2\obj\Debug\Array2.pdb

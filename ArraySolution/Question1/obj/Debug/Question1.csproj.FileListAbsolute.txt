@@ -1,0 +1,7 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Question1\bin\Debug\Question1.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Question1\bin\Debug\Question1.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Question1\bin\Debug\Question1.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Question1\obj\Debug\Question1.csprojAssemblyReference.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Question1\obj\Debug\Question1.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Question1\obj\Debug\Question1.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\Question1\obj\Debug\Question1.pdb
