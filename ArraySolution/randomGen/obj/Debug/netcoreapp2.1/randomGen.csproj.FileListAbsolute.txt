@@ -1,0 +1,11 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\bin\Debug\netcoreapp2.1\randomGen.deps.json
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\bin\Debug\netcoreapp2.1\randomGen.runtimeconfig.json
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\bin\Debug\netcoreapp2.1\randomGen.runtimeconfig.dev.json
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\bin\Debug\netcoreapp2.1\randomGen.dll
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\bin\Debug\netcoreapp2.1\randomGen.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\obj\Debug\netcoreapp2.1\randomGen.csprojAssemblyReference.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\obj\Debug\netcoreapp2.1\randomGen.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\obj\Debug\netcoreapp2.1\randomGen.AssemblyInfoInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\obj\Debug\netcoreapp2.1\randomGen.AssemblyInfo.cs
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\obj\Debug\netcoreapp2.1\randomGen.dll
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\randomGen\obj\Debug\netcoreapp2.1\randomGen.pdb
