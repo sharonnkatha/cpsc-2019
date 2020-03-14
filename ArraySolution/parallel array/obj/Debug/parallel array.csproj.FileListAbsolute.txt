@@ -1,0 +1,7 @@
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\parallel array\bin\Debug\parallel array.exe.config
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\parallel array\bin\Debug\parallel array.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\parallel array\bin\Debug\parallel array.pdb
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\parallel array\obj\Debug\parallel array.csprojAssemblyReference.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\parallel array\obj\Debug\parallel array.csproj.CoreCompileInputs.cache
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\parallel array\obj\Debug\parallel array.exe
+C:\Users\snkatha1\Documents\GitHub\cpsc-2019\ArraySolution\parallel array\obj\Debug\parallel array.pdb
